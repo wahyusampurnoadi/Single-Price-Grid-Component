@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e6eff6;
+  font-family: "Heebo", sans-serif;
+}
+
+#wrapper {
+  margin: 30px;
+  margin-top: 40px;
+  box-shadow: 4px 4px 10px rgb(198, 198, 198);
+}
+
+#community {
+  background-color: #fff;
+  padding: 20px;
+}
+
+#community h3 {
+  color: #2bb3b1;
+}
+
+#community h4 {
+  margin-top: 10px;
+  color: #bfdf32;
+  opacity: 0.8;
+}
+
+#community p {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  opacity: 0.6;
+  font-size: 14px;
+}
+
+#subs {
+  background-color: #2bb3b1;
+  padding: 20px;
+}
+
+#subs h4 {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+#subs #span {
+  color: #fff;
+  font-size: 30px;
+  letter-spacing: 1px;
+  margin-right: 10px;
+}
+
+#subs p#first {
+  color: #fff;
+  display: inline;
+  opacity: 0.6;
+}
+
+#subs p#second {
+  color: #fff;
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+
+#subs button {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #bfdf32;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  box-shadow: 1px 1px 10px rgba(131, 131, 131, 0.604);
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+#benefit {
+  background-color: #4abebd;
+  padding: 20px;
+  color: #fff;
+}
+
+#benefit h3 {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+#benefit p {
+  opacity: 0.6;
+}
+
+@media screen and (min-width: 1200px) {
+  #wrapper {
+    width: 700px;
+    margin: 80px auto;
+  }
+  #community {
+    padding: 35px;
+  }
+  #col {
+    display: flex;
+    justify-content: center;
+  }
+  #subs {
+    width: 100%;
+    padding: 50px 35px;
+  }
+  #benefit {
+    width: 100%;
+    padding: 35px;
+  }
+}
